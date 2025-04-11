@@ -72,7 +72,7 @@ On every push to `main`, the workflow:
 kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
 
-minikube service kube-demo
+minikube service kube-demo-service
 ```
 
 🧪 Kubernetes manifests included in the `k8s/` folder.
