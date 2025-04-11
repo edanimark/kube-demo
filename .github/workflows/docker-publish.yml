@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ${{secrets.DOCKERHUB_USERNAME}}/my-app:latest
+          tags: ${{secrets.DOCKERHUB_USERNAME}}/kube-demo:latest
