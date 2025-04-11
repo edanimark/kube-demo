@@ -6,7 +6,7 @@ COPY my-app/go.mod ./
 RUN go mod download
 
 COPY my-app/ .
-RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o main
+RUN go build -o main
 
 # Final image
 FROM alpine:latest
